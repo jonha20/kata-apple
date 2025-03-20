@@ -13,9 +13,18 @@ console.log(result);
 
 
 const ordenarNombres = elementos => elementos.sort()
-const ordenarNum = elementos => elementos.sort((a,b)=> a-b) ;
+const ordenarNum = gente => gente.sort((nombre,edad)=>{
+    if (nombre.name) {
+        
+    }
+}) ;
 
 const array1 = ["Juan", "Luis", "Pepe" , "Jose", "Ricardo"]
 const array2 = [1, 6, 3, 78, 30]
+const gente = [
+    { name: "Luis", age: 20 },
+    { name: "Ana", age: 20 },
+    { name: "Andrea", email: 19 },
+  ];
 console.log(ordenarNombres(array1)); 
 console.log(ordenarNum(array2)); 
